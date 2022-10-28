@@ -1,0 +1,141 @@
+/* Hide Radio button */
+.rate > input{
+    display: none;
+  }
+  
+  .rate{
+    display: inline-block;;
+    border: 0;
+  }
+  
+  .rate > label{
+    float: right;
+  }
+  
+  /* Showing the stars */
+  .rate > label:before{
+    display: inline-block;
+    font-size: 1.1rem;
+    font-family: FontAwesome;
+    content: "\f005";
+    margin:0;
+    padding:0.3rem .2rem;
+    cursor: pointer;
+  }
+  
+  /* Half star */
+  .rate .half:before{
+    content: "\f089";
+    position: absolute;
+    padding-right: 0;
+  }
+  
+  /* Click and hover */
+  input:checked ~ label, label:hover ~ label{
+    color: #ffb503;
+  }
+  
+  /* hover hightlight */
+  input:checked + label:hover, input:checked ~ label:hover,input:checked ~ label:hover ~ label,
+  label:hover ~ input:checked ~ label{
+    color: #cc9000;
+  }
+  
+  .rating-star i{
+    color: #ffb503 !important;
+  }
+  
+  ul.thumb{
+    margin:0 auto;
+    padding: 0;
+    float: left;
+  }
+  ul.thumb li{
+    list-style: none;
+    margin: 10px;
+  }
+  ul.thumb li img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid grey;
+  }
+  .f-social li a {
+    font-size: 21px;
+    color: #000000;
+    margin: 10px;
+}
+.gap-2{
+  margin-left: 5px;
+}
+.mwc-right {
+  margin-right: 35px;
+}
+.navbar-expand-sm{
+  background-color:#1650e0;
+}
+.navbar-light .nav-link {
+  color: rgb(255 255 255);
+}
+.navbar-light .nav-link:hover, .navbar-light .nav-link:focus {
+  color: #e9b84d;
+}
+.footer-bottom{
+  background-color:#1650e0;
+  color: azure;
+
+}
+.footer-bottom a {
+  background-color:#1650e0;
+  color: azure;
+
+}
+.footer-bottom a:hover {
+  color:#fffd00;
+
+}
+#btn-back-to-top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: none;
+}
+.section-footer{
+  background-color:#ebebeb;
+}
+.section-content{
+  margin-top: 75px;
+}
+.section-intro{
+  margin-top: 75px;
+}
+.section-conten{
+  margin-top: 75px;
+}
+@media (max-width: 1200px) {
+  .section-intro{
+    margin-top: 175px;
+  }
+  .section-content{
+    margin-top: 175px;
+  }
+  .section-conten{
+    margin-top: 175px;
+  }
+  .section-pagetop {
+    margin-top: 175px;
+  }
+}
+@media (max-width: 768px) {
+  .section-intro{
+    margin-top: 200px;
+  }
+  .section-content{
+    margin-top: 200px;
+  }
+  .section-conten{
+    margin-top: 200px;
+  }
+  .section-pagetop {
+    margin-top: 200px;
+  }
+}
