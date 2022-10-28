@@ -14,8 +14,7 @@ MWKart is an eCommerce application built with Python Django Framework. Some of t
 4. Create virtual environment `python -m venv env`
 5. Activate the virtual environment `source env/Scripts/activate`
 6. Install required packages to run the project `pip install -r requirements.txt`
-7. Rename _.env-sample_ to _.env_
-8. Fill up the environment variables:
+7. Fill up the environment variables:
     ```
     EMAIL_HOST=smtp.gmail.com
     EMAIL_PORT=587
@@ -24,21 +23,21 @@ MWKart is an eCommerce application built with Python Django Framework. Some of t
     EMAIL_USE_TLS=True
     ```
     _Note: If you are using gmail account, make sure you [turn ON the less secure apps](https://myaccount.google.com/lesssecureapps)_
-9. Create database tables
+8. Create database tables
     ```sh
     python manage.py migrate
     ```
-10. Create a super user
+9. Create a super user
     ```sh
     python manage.py createsuperuser
     ```
     _GitBash users may have to run this to create a super user - `winpty python manage.py createsuperuser`_
-11. Run server
+10. Run server
     ```sh
     python manage.py runserver
     ```
-12. Login to admin panel - (`http://127.0.0.1:8000/admin/`)
-13. Add categories, products, add variations, register user, login, place orders and EXPLORE SO MANY FEATURES
+11. Login to admin panel - (`http://127.0.0.1:8000/admin/`)
+12. Add categories, products, add variations, register user, login, place orders and EXPLORE SO MANY FEATURES
 
 
 [Demo Video](#)
